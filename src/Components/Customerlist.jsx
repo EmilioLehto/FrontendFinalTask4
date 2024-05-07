@@ -6,7 +6,7 @@ import Addcustomer from './Addcustomer';
 import Button from "@material-ui/core/Button";
 import { CSVLink } from "react-csv";
 
-export default function Traininglist() {
+export default function Customerlist() {
   const [customers, setCustomers] = useState([]);
 
   useEffect(() => {

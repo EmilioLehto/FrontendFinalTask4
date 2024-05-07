@@ -15,6 +15,9 @@ function App() {
           <Typography variant="h6" component={Link} to="/Calender" style={{ marginRight: '20px',color: 'inherit', textDecoration: 'none' }}>
             Calender
           </Typography>
+          <Typography variant="h6" component={Link} to="/Stats" style={{ color: 'inherit', textDecoration: 'none' }}>
+             Statstics
+          </Typography>
         </Toolbar>
       </AppBar>
       <Outlet />

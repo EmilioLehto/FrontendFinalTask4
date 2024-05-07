@@ -4,6 +4,7 @@ import App from './App.jsx'
 import Customerlist from './Components/Customerlist.jsx'
 import Traininglist from './Components/Traininglist.jsx'
 import Calender from './Components/Calender.jsx'
+import Stats from './Components/Stats.jsx'
 import { createBrowserRouter, RouterProvider  } from 'react-router-dom';
 
 
@@ -27,7 +28,10 @@ const router = createBrowserRouter([
       path: "Calender",
       element: <Calender />,
     },
-  
+    {
+      path: "Stats",
+    element: <Stats />,
+  }
 
 
   ]
